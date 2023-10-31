@@ -11,6 +11,8 @@
 <a href="https://www.figma.com/file/15iPZkBZYXqqDypuxw4Wtv/Deiby-Alejandro-Suarez-Ortiz?type=design&node-id=0%3A1&mode=design&t=G27YDdNqeMbrv8rk-1"><button>Figma</button></a>
 
 <h2>Punto 2: Diseño en HTML</h2>
+    
+<img src="./public/images/punto-2.png" alt="punto 2">
 
 <h2>Punto 3: Diseño con CSS</h2>
 

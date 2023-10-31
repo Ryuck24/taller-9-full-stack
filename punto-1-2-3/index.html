@@ -15,16 +15,16 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#">Cursos</a>
+                        <a href="#banner">Cursos</a>
                     </li>
                     <li>
-                        <a href="#">Participantes</a>
+                        <a href="#section-1">Participantes</a>
                     </li>
                     <li>
-                        <a href="#">Certificados</a>
+                        <a href="#section-2">Certificados</a>
                     </li>
                     <li>
-                        <a href="#">Ayuda</a>
+                        <a href="#footer">Ayuda</a>
                     </li>
                 </ul>
             </nav>
@@ -65,7 +65,7 @@
                     contemporáneas
                 </p>
             </div>
-            <div class="card-1">
+            <div class="section-1__card">
                 <img 
                 src="./public/images/section1-education.png" 
                 alt="education"
@@ -74,7 +74,7 @@
                 >
                 <h3>Virtualidad y educacion</h3>
             </div>
-            <div class="card-2">
+            <div class="section-1__card">
                 <img 
                 src="./public/images/section1-goals.png" 
                 alt="goals"
@@ -83,7 +83,7 @@
                 >
                 <h3>Alcance de objetivos</h3>
             </div>
-            <div class="card-3">
+            <div class="section-1__card">
                 <img 
                 src="./public/images/section1-teach.png" 
                 alt="teach"
@@ -94,17 +94,95 @@
             </div>
         </section>
         <section id="section-2">
-
+            <div class="section-2__info">
+                <img 
+                src="./public/images/section2-tools.png" 
+                alt="tools"
+                width="500px"
+                height="350px"
+                >
+                <div>
+                    <h2>Brindamos herramientas para que tu aprendizaje</h2>
+                    <h2>sea efectivo</h2>
+                    <p>Las herramientas digitales son nuestras aliadas y 
+                        aprovechamos cada una de estas para brindarte la 
+                        mejor experiencia en linea
+                    </p>
+                    <button>Saber más</button>
+                </div>
+            </div>
+            <div class="section-2__info">
+                <div>
+                    <h2>Educación pensado en</h2>
+                    <h2>objetivos alcanzados</h2>
+                    <p>
+                        Es importante para nosotros que las 
+                        metas de cada uno de nuestros estudiantes 
+                        sean alcanzadas
+                    </p>
+                    <button>Saber más</button>
+                </div>
+                <img 
+                src="./public/images/section2-goals.png" 
+                alt="goals"
+                width="500px"
+                height="350px"
+                >
+            </div>
         </section>
     </main>
-    <footer>
-        <section>
-            <img src="#" alt="Logo-footer">
-            <p>Únete a nuestra comunidad para recibir información
-                actualizada de los cursos y conferencia que ofrecemos
+    <footer id="footer">
+        <div class="footer__info">
+            <img 
+            src="./public/images/footer-logo.png" 
+            alt="logo"
+            width="200px"
+            height="175px"
+            >
+            <p>Unete a nuestra comunidad para 
+                recibir informacion actualizada 
+                de los cursos y conferencias que ofrecemos
             </p>
-            <input type="email"><button class="button-footer">Suscribirse</button>
-        </section>
+            <form action="">
+                <input type="email" 
+                placeholder="example@correo.com"
+                name="user_email"
+                >
+                <button>Suscribirse</button>
+            </form>
+        </div>
+        <div class="footer__list">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Plataforma</th>
+                        <th>Preguntas Frecuentes</th>
+                        <th>Contactanos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="">Panestic</a></td>
+                        <td><a href="">¿Cómo puedo inscribirme?</a></td>
+                        <td><a href="">+57 320 80 80</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="">Moodle</a></td>
+                        <td><a href="">¿Cómo obtengo mis certificados?</a></td>
+                        <td><a href="">unidistrital@edu.co</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="">Atenea</a></td>
+                        <td><a href="">Medios de pago</a></td>
+                        <td><a href="">Cra 11 # 94 - 06 Sur</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="">Administración</a></td>
+                        <td><a href="">¿Qué convenios existen</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </footer>
 </body>
 
