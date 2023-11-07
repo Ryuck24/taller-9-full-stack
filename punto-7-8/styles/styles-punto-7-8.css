@@ -1,0 +1,33 @@
+header {
+    margin: 20px 100px;
+    background-color: rgb(234, 128, 255);
+    height: 80px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 2vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, 
+    Verdana, sans-serif;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    background-color: blue;
+    font-size: 2vw;
+    padding: 10px;
+}
