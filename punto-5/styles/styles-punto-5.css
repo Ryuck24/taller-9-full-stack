@@ -1,0 +1,33 @@
+#parrafo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 15%;
+    font-size: 2vw;
+}
+
+.text__green {
+    color: green;
+    text-decoration: underline;
+}
+.text__red {
+    color: red;
+}
+
+.line__doble {
+    text-decoration: overline underline;
+}
+
+.mayus__text {
+    font-size: 3vw;
+}
+
+.text__blue {
+    color: blue;
+}
+
+.one__line{
+    color: red;
+    text-decoration: underline;
+}
