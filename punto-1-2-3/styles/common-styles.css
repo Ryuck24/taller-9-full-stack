@@ -1,0 +1,61 @@
+body {
+    margin: 0px;
+}
+
+a {
+    font-family: 'Jost';
+}
+
+a:hover{
+    color: blue;
+}
+
+select {
+    font-family: 'Jost';
+    font-weight: 300;
+    color: #454868;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 1vw;
+    border: transparent;
+}
+
+button {
+    font-family: 'Jost';
+    font-size: 1vw;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 15px 25px;
+    cursor: pointer;
+}
+
+header button {
+    background-color: transparent;
+    border: 1px solid #45486843;
+    color: #454868;
+}
+
+button:hover {
+    background-color: #005aa3;
+    color: #fff;
+}
+
+p {
+    font-family: 'Jost';
+    font-size: 15px;
+}
+
+.button--orange {
+    background-color: #FD909E;
+    color: white;
+    border: none;
+}
+
+h2 {
+    font-family: "Jost";
+    font-size: 45px;
+    color: #010851;
+    line-height: 124%;
+    letter-spacing: -1%;
+    margin: 0px;
+}
